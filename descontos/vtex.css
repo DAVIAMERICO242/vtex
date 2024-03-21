@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 8px;
+    height: 100vh;
+    width: 100wh;
+  }
+
+.nav{
+    z-index:99999;
+    user-select: none; /* Standard syntax */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(232, 227, 227);
+}
+
+.discounts-ui{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.apart{
+    margin-left: 15%;
+    right: 10%;
+    display: flex;
+    gap: 20px;
+}
+
+.Arrow:hover{
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+#login_image{
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.discounts{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: all 0.3s ease; /* Added transition for width */
+
+}
+
+.discount.current{
+    transition: all 0.5s ease;
+}
+
+.discount:not(.current){
+    display: none;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
